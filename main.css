@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+header {
+  background: #333;
+  padding: 1rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  font-size: 1rem;
+}
+
+div{
+  font-size: 1.5rem;
+}
+
+#direction{
+  font-size: 1.5rem;
+}
+
+
+#large {
+  padding-top: 2rem;
+}
+
+  article {
+        background-color: #eac9aa;
+        margin: auto;
+        width: 900px;
+        align-items: center;
+        text-align: center;
+  }
+
+  h1 {
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 0.5rem;
+      padding: 2rem;
+  }
+
+  audio {
+      padding-left: 2rem;
+  }
+
+#album {
+    margin:auto;
+    padding-bottom: 2rem;
+}
+
+#god {
+  margin: 2rem;
+}
+
+  footer {
+    background-color:	#a4978e;
+    padding: .5rem;
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+  }
+
+
+  @media screen and (max-width: 650px) {
+      article {
+          width: 500px;
+          margin: auto;
+      }
+
+      .album {
+        width:500px;
+        margin: auto;
+      }
+
+      header {
+        width: 500px;
+        margin: auto;
+      }
+
+      footer {
+        max-width: 500px;
+        background: #a4978e;
+        margin: auto;
+      }
+  }
